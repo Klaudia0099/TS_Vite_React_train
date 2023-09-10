@@ -3,7 +3,7 @@ import { getCountCharacters, getIsEven, processString} from '../../utils/index';
 //adding type explicity
 //adding type implicity
 let age: number = 65;
-const name:string ="Adaś";
+const name:string ="Klaudia";
 let levelOfJavascript: null = null;
 let knowsReact: boolean = false;
 let variableUnknown: unknown;
@@ -42,7 +42,7 @@ function getPet(str: "dog" | "cat"): string | undefined {
     if (str){
         return str; // tu jest 'string'
     }
-    return str; // ty jest to 'undefined'
+    return str; // tu jest to 'undefined'
 }
 
 type PersonType = {
@@ -58,17 +58,17 @@ return(
     <div className="container--typescript-task1">
         <span>Task name : {taskName}</span><br/>
         <span>Task ID : {taskID}</span><br/>
-{greet("Adam")}<br/>
+{greet("Klaudia")}<br/>
 {greet2()}<br/>
 {getSum(3,4)}<br/>
 {getCountCharacters("konstantynopolitowianeczka")}<br/>
 <span>{getIsEven(7).toString()}</span><br/>
-{processString("Adam")}
+{processString("Klaudia")}
 <div>{getString()}</div>
 <div>{getPet("dog")}</div>
 
 <div>{doTask(name)}</div>
-<div>{getSayHello({name:"Adam", age: 40})}</div>
+<div>{getSayHello({name:"Klaudia", age: 24})}</div>
     </div>
 )
 }
